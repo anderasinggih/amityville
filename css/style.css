@@ -1,18 +1,26 @@
 :root {
   --bs-body-font-family: "Poppins", sans-serif;
+  user-select: none;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+
+  user-select: none;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  min-height: 2000px;
+#capt {
+  font-size: 0.95rem;
 }
 
 .jumbotron {
-  padding-top: 6rem;
-  background-color: #e2edff;
+  padding-top: 3rem;
+  background-color: #000000;
 }
 
 #projects {
@@ -23,4 +31,38 @@ section {
   padding-top: 5rem;
 }
 
+.btn-contact {
+  background-color: #4c4c4c;
+  color: #e2edff;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 1.2rem;
+  padding: 10px 20px;
+  transition: background-color 0.1s ease;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  user-select: none;
+  justify-content: center;
+}
 
+.btn-contact:hover {
+  background-color: #9900ff;
+  border: 0px;
+}
+
+.btn-contact i {
+  margin-right: 10px;
+}
+
+.btn-text {
+  font-weight: bold;
+}
+
+#about {
+  margin-top: 25em;
+}
+
+#footer {
+  margin-top: 23em;
+}
