@@ -64,5 +64,10 @@ section {
 }
 
 #footer {
-  margin-top: 23em;
+  margin-top: 19em;
+}
+
+body,
+html {
+  overflow: hidden;
 }
